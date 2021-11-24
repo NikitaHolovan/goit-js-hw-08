@@ -3102,7 +3102,7 @@ if (saveCurrentTime) {
     console.log(saveCurrentTime);
     localStorage.removeItem(currentTime);
 }
-},{"lodash.throttle":44,"@vimeo/player":41}],18:[function(require,module,exports) {
+},{"lodash.throttle":44,"@vimeo/player":41}],35:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -3131,7 +3131,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '4006' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '10207' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -3272,5 +3272,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[18,59], null)
+},{}]},{},[35,59], null)
 //# sourceMappingURL=/02-video.0726bd68.map
